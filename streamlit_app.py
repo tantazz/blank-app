@@ -23,7 +23,7 @@ st.title("🎨 Gemini Sketch Annotator")
 
 # === Utility Functions ===
 
-def adjust_box(box, scale=1.4, shift_x=50, shift_y=50):
+def adjust_box(box, scale=1.6, shift_x=80, shift_y=80):
     x1, y1, x2, y2 = box
     w = x2 - x1
     h = y2 - y1
